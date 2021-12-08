@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Brincando com Centenas</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+    *{
+        margin: 0;
+         padding: 0;
+    }.fundo{
+        text-align: center;
+        background-image:linear-gradient(180deg,Blue,purple) ;
+          color: black;
+          height: 100%;
+          font-family: Arial;
+          font: 35px;
+          align-items: 50%;
+          position: relative;
+        
+    }.atv{
+        position: inherit;
+          text-align: center;
+          top: auto;
+          left: 28%;
+          background-color: gray;
+          border: black;
+          width: 600px;
+          height: 700px;
+    }.tabela{
+        text-align: center;
+          top: auto;
+          left: 7%;
+          position: inherit;
+        background-color: white;
+        border:black 3px solid;
+        width: 500px;
+        height: 500px;
+    }.botao{
+          transition-duration: 0.4s;}
+          .botao:hover {
+              background-color: #5fda63;
+              font: bold; 
+                color: rgb(0, 0, 0);}
+        .botao{
+          background-color: green;
+         border-radius: 8px;
+          width: 80px;
+          height: 30px;
+          font-size:medium ;
+          color: white;
+          border: 2px solid #000000;
+        }
+    </style>
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="fundo">
+          <h1 aling="center">DESCOBRINDO CENTENAS</h1>
+          <br><br>
+          <div class="atv">
+              <h2 style="font: bold;">Brincando com as centenas</h2>
+              <br><br>
+              <table class="tabela" border="2" align="center">
+                <tr >
+                    <th>NÚMEROS</th>
+                    <th>CENTENAS</th>
+                    <th>DEZENAS</th>
+                    <th>UNIDADES</th>
+                </tr>
+                <tr >
+                    <td><input type="number" id="a1"></td>
+                    <td>| |</td>
+                    <td>| | | |</td>
+                    <td>| | | | | | | | |</td>
+                </tr>
+                <script>
+                    function ver1(){
+                    var a1 = document.getElementById("a1").value
+                    if (a1 == 249){window.alert("Parabéns você acertou")} };
+                </script>
+                <tr>
+                    <td><input type="number" id="2"></td>
+                    <td>| | |</td>
+                    <td>| | | | |</td>
+                    <td>| | | | |</td>
+                </tr>
+                <script>
+                    function ver2(){
+                    var a2 = document.getElementById("2").value
+                    if (a2 == 355){window.alert("Parabéns você acertou")} };
+                </script>
+                <tr >
+                    <td><input type="number" id="3"></td>
+                    <td>|</td>
+                    <td>| | |</td>
+                    <td>| | | | | |</td>
+                </tr>   
+                <script>
+                    function ver3(){
+                    var a3 = document.getElementById("3").value
+                    if (a3 == 136){window.alert("Parabéns você acertou")} };
+                </script> 
+                <tr>
+                    <td><input type="number" id="4"></td>
+                    <td>| | | |</td>
+                    <td>|</td>
+                    <td>| | | | | | |</td>
+                </tr> 
+                <script>
+                    function ver4(){
+                    var a4 = document.getElementById("4").value
+                    if (a4 == 417){window.alert("Parabéns você acertou")} };
+                </script>
+                <tr>
+                    <td><input type="number" id="5"></td>
+                    <td>| |</td>
+                    <td>| |</td>
+                    <td>| | |</td>
+                </tr>
+                <script>
+                    function ver5(){
+                    var a5 = document.getElementById("5").value
+                    if (a5 == 223){window.alert("Parabéns você acertou")} };
+                </script>
+                <tr>
+                    <td><input type="number" id="6"></td>
+                    <td>| | | | |</td>
+                    <td>| | |</td>
+                    <td>| |</td>
+                </tr>
+                <script>
+                    function ver6(){
+                    var a6 = document.getElementById("6").value
+                    if (a6 == 532){window.alert("Parabéns você acertou")} };
+                </script>
+                <tr>
+                    <td><input type="number" id="7"></td>
+                    <td>|</td>
+                    <td>| | | | | |</td>
+                    <td>|</td>
+                </tr>
+                <script>
+                    function ver7(){
+                    var a7 = document.getElementById("7").value
+                    if (a7 == 161){window.alert("Parabéns você acertou")} };
+                </script>
+                <tr>
+                    <td><input type="number" id="8"></td>
+                    <td>| | | | | |</td>
+                    <td>| |</td>
+                    <td>| | | |</td>
+                </tr>   
+                <script>
+                    function ver8(){
+                    var a8 = document.getElementById("8").value
+                    if (a8 == 624){window.alert("Parabéns você acertou")} };
+                </script>      
+              </table>
+              <br><br>
+              <button onclick="ver1();ver2();ver3();ver4();ver5();ver6();ver7();ver8();" class="botao">Verificar</button>
+            <br>
+            </div>
+            <br>
+            <button style="text-align: center; ruby-align: center;" onclick="window.location.href='site.html'" class="botao">Menu</button>
+            <br><br>
+        </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

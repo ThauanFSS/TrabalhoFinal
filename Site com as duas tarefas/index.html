@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <title>Atividades</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <title>Dividindo Legal</title>
+      <style>
+        *{
+          margin: 0;
+          padding: 0;
+        }
+        .fundo{
+          text-align: center;
+          background-image:linear-gradient(180deg,Blue,purple) ;
+          color: black;
+          height: 100%;
+          font-family: Arial;
+          font: 35px;
+        }
+        .atv1{
+          text-align: center;
+          width: 60%;
+          height: 50%;
+          top: auto;
+          left: 20%;
+          position:relative;
+          background-color: gray;
+          border: black;
+        }
+        .atv2{
+          text-align: center;
+          width: 60%;
+          left: 20%;
+          height: 50%;
+          position:relative;
+          background-color: gray;
+          border: black;
+        }
+        .button{
+          transition-duration: 0.4s;}
+          .button:hover {
+              background-color: #5fda63;
+              font: bold; 
+                color: rgb(0, 0, 0);}
+        .button{
+          background-color: green;
+         border-radius: 8px;
+          width: 80px;
+          height: 30px;
+          font-size:medium ;
+          color: white;
+          border: 2px solid #000000;
+        }
+        .tabela1{
+           border: 2px solid white;
+           border-radius: 8px;
+           position: relative;
+          text-align: center;
+
+        }
+      </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+  <div class="fundo">
+   
+    <h1 align="center" style="font: menu, bold; font-size:60px; color: white;">DIVIDINDO LEGAL</h1>
+      <div class="atv1">
+        <br>
+        <h3 align="center">•Vamos fazer de acordo com o modelo</h3>
+            <table class="tabela1"  > 
+             <tr>
+               <br>
+                  <p style="color: red; font: bold; font-size: medium;"> 5 x 3 = 15, então 15 ÷ 3 = 5 </p>
+             </tr>
+            </table>
+            <br>
+            <table class="tabela">
+              <tr class="taba">
+                <p>A) 4 x <input type="number" id="a1" > = 12, então 12 ÷ 4 = <input type="number" id="a2" ></p>
+                <script> function calcular1(){var a1 = parseInt(document.getElementById("a1").value) ; var a2 = parseInt(document.getElementById("a2").value);
+                if (a1 == 3 && a2 == 3){window.alert("Você acertou a letra a)")} }</script>
+              </tr>
+              <tr id="bt">
+                <p>B) 3 x <input type="number" id="b1" > = 30, então 30 ÷ 3 = <input type="number" id="b2" ></p>
+                <script> function calcular2(){var b1 = parseInt(document.getElementById("b1").value) ; var b2 = parseInt(document.getElementById("b2").value);
+                  if (b1 == 10 && b2 == 10){window.alert("Você acertou a letra b)")} }</script>
+              </tr>
+              <tr id="ct">
+                <p>C) 2 x <input type="number" id="c1" > = 18, então 18 ÷ 2 = <input type="number" id="c2" ></p>
+                <script> function calcular3(){var c1 = parseInt(document.getElementById("c1").value) ; var c2 = parseInt(document.getElementById("c2").value);
+                  if (c1 == 9 && c2 == 9){window.alert("Você acertou a letra c)")} }</script>
+              </tr>
+              <tr id="dt">
+                <p>D) 5 x <input type="number" id="d1" > = 40, então 40 ÷ 5 = <input type="number" id="d2" ></p>
+                <script> function calcular4(){var d1 = parseInt(document.getElementById("d1").value) ; var d2 = parseInt(document.getElementById("d2").value);
+                  if (d1 == 8 && d2 == 8){window.alert("Você acertou a letra d)")} }</script>
+              </tr>
+              <tr id="et">
+                <p>E) 3 x <input type="number" id="e1" > = 24, então 24 ÷ 3 = <input type="number" id="e2" ></p>
+                <script> function calcular5(){var e1 = parseInt(document.getElementById("e1").value) ; var e2 = parseInt(document.getElementById("e2").value);
+                  if (e1 == 8 && e2 == 8){window.alert("Você acertou a letra e)")} }</script>
+              </tr>
+              <tr id="ft">
+                <p>F) 4 x <input type="number" id="f1" > = 32, então 32 ÷ 4 = <input type="number" id="f2" ></p>
+                <script> function calcular6(){var f1 = parseInt(document.getElementById("f1").value) ; var f2 = parseInt(document.getElementById("f2").value);
+                  if (f1 == 8 && f2 == 8){window.alert("Você acertou a letra f)")} }</script>
+              </tr>
+              <tr id="gt">
+                <p>G) 2 x <input type="number" id="g1" > = 8, então 8 ÷ 2 = <input type="number" id="g2"></p>
+                <script> function calcular7(){var g1 = parseInt(document.getElementById("g1").value) ; var g2 = parseInt(document.getElementById("g2").value);
+                  if (g1 == 4 && g2 == 4){window.alert("Você acertou a letra g)")} }</script>
+              </tr>
+               <br>
+              <button onclick="calcular1();calcular2();calcular3();calcular4();calcular5();calcular6();calcular7()" class="button">Verificar </button>
+              <br>
+            </table>
+            <br>
+            </div>
+      
+      <div class="atv2">
+        <h5>•Faça as divisões e complete com > (maior), < (menor) ou = (igual)</h5> 
+    <br>
+    <table class="tabela">
+      <tr>
+        <p>a) 35 ÷ 7 = <input id="aa" type="number">  
+          <select id="op1"><option value=""></option><option value=">">></option><option value="<"><</option><option value="=">=</option> </select>
+         10 ÷ 2 = <input id="aaa" type="number"></p>
+         <script> function Confere1(){var ra = parseInt(document.getElementById("aa").value) ; var ra1 = parseInt(document.getElementById("aaa").value); var op1 = document.getElementById("op1").value;
+          if ((ra == 5 && ra1 == 5)&& op1== "="){window.alert("Você acertou")} }</script>
+      </tr>
+      <tr>
+        <p>b) 25 ÷ 5 = <input id="bb"type="number">    
+          <select id="op2"><option value=""></option><option value=">">></option><option value="<"><</option><option value="=">=</option> </select> 
+          20 ÷ 5 = <input id="bbb" type="number"></p>
+          <script> function Confere2(){var rb = parseInt(document.getElementById("bb").value) ; var rb1 = parseInt(document.getElementById("bbb").value); var op2 = document.getElementById("op2").value;
+            if ((rb == 5 && rb1 == 4)&& op2== ">"){window.alert("Você acertou")} }</script>
+      </tr>
+      <tr>
+        <p>c) 48 ÷ 8 = <input id="cc" type="number">    
+          <select id="op3"><option value=""></option><option value=">">></option><option value="<"><</option><option value="=">=</option> </select>
+          42 ÷ 7 = <input id="ccc" type="number"></p>
+          <script> function Confere3(){var rc = parseInt(document.getElementById("cc").value) ; var rc1 = parseInt(document.getElementById("ccc").value); var op3 = document.getElementById("op3").value;
+            if ((rc == 6 && rc1 == 6)&& op3== "="){window.alert("Você acertou")} }</script>
+      </tr>
+      <tr>  
+        <p>d) 81 ÷ 9 = <input id="dd"type="number"> 
+          <select id="op4"><option value=""></option><option value=">">></option><option value="<"><</option><option value="=">=</option> </select>
+          40 ÷ 5 = <input id="ddd"type="number"></p>
+          <script> function Confere4(){var rd = parseInt(document.getElementById("dd").value) ; var rd1 = parseInt(document.getElementById("ddd").value); var op4 = document.getElementById("op4").value;
+            if ((rd == 9 && rd1 == 8)&& op4== ">"){window.alert("Você acertou")} }</script>
+      </tr>
+      <tr>  
+        <p>e) 21 ÷ 3 = <input id="ee" type="number">  
+          <select id="op5"><option value=""></option><option value=">">></option><option value="<"><</option><option value="=">=</option> </select>
+          72 ÷ 9 = <input id="eee"type="number"></p>
+          <script> function Confere5(){var re = parseInt(document.getElementById("ee").value) ; var re1 = parseInt(document.getElementById("eee").value); var op5 = document.getElementById("op5").value;
+            if ((re == 7 && re1 == 8)&& op5== "<"){window.alert("Você acertou")} }</script>
+      </tr> 
+      <tr> 
+        <p>f) 18 ÷ 9 = <input id="ff"type="number">    
+          <select id="op6"><option value=""></option><option value=">">></option><option value="<"><</option><option value="=">=</option> </select>
+          12 ÷ 6 = <input id="fff"type="number"></p>
+          <script> function Confere6(){var rf = parseInt(document.getElementById("ff").value) ; var rf1 = parseInt(document.getElementById("fff").value); var op6 = document.getElementById("op6").value;
+            if ((rf == 2 && rf1 == 2)&& op6== "="){window.alert("Você acertou")} }</script>
+      </tr> 
+      <tr> 
+        <p>g) 36 ÷ 4 = <input id="gg"type="number">  
+          <select id="op7"><option value=""></option><option value=">">></option><option value="<"><</option><option value="=">=</option> </select>
+          24 ÷ 3 = <input id="ggg"type="number"></p>
+          <script> function Confere7(){var rg = parseInt(document.getElementById("gg").value) ; var rg1 = parseInt(document.getElementById("ggg").value); var op7 = document.getElementById("op7").value;
+            if ((rg == 9 && rg1 == 8)&& op7== ">"){window.alert("Você acertou")} }</script>
+      </tr>
+      <tr>  
+        <p>h) 45 ÷ 9 = <input id="hh"type="number">   
+          <select id="op8"><option value=""></option><option value=">">></option><option value="<"><</option><option value="=">=</option> </select>
+          36 ÷ 4 = <input id="hhh"type="number"></p>
+          <script> function Confere8(){var rh = parseInt(document.getElementById("hh").value) ; var rh1 = parseInt(document.getElementById("hhh").value); var op8 = document.getElementById("op8").value;
+            if ((rh == 5 && rh1 == 9)&& op8== "<"){window.alert("Você acertou")} }</script>
+      </tr>
+    </table>
+    <br>
+    <button onclick="Confere1();Confere2();Confere3();Confere4();Confere5();Confere6();Confere7();Confere8();"  class="button">Conferir</button>
+  <br><br>    
+  </div>
+      <br>
+      <button style="text-align: center; ruby-align: center;" onclick="window.location.href='site.html'" class="button">Menu</button>
+      <br><br>
+  </div>
+
+  
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
